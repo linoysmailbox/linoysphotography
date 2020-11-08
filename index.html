@@ -1,346 +1,408 @@
-<!DOCTYPE html>
-<html class="cspio">
-<head>
-	<!---
-	Welcome to our free coming soon page template by http://comingsoonpage.com Get your free download at https://www.seedprod.com/free-coming-soon-page/
-	This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
-	http://creativecommons.org/licenses/by-nc-nd/4.0/
-	To get started follow this checklist.
-	1. Replace the *Page Title* on lines 23, 31 & 296
-	2. Set the *Page Description* on lines 26, 32 & 298
-	3. Set an optional *Logo* on lines 294 using the src attribute.
-	4. Set your *Facebook Profile* URL on line 312 using the href attribute.
-	5. Set your *Twitter Profile* URL on line 313 using the href attribute.
-	6. Set your *Email* on line 314 using the href attribute.
-	7. Set your background image on line 63, see file README.mb for additional background images.
-	8. Set your MailChimp email post URL on line 300 See video: https://youtu.be/YUdP1qfMot8
-	9. FTP to your Website. 
-	-->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Coming Soon Page</title>
+<!doctype html>
+<html lang="en">
 
-	<meta name="generator" content="comingsoonpage.com 1.0.0" />
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/favicon.ico">
-	<meta property="og:url" content="" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="My Coming Soon Page" />
-	<meta property="og:description" content="" />
-	
-	<!-- Font Awesome CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <head>
+    <title>Linoy &mdash; Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<!-- Bootstrap and default Style -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
-	<link rel="stylesheet" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700|Hepta+Slab:400,700&display=swap" rel="stylesheet">
 
-	<!-- Google Fonts -->
-	<link class="gf-headline" href='https://fonts.googleapis.com/css?family=Pacifico:400&subset=' rel='stylesheet' type='text/css'>
-			
-	<!-- Animate CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
-	
-	<!-- Calculated Styles -->
-	<style type="text/css">
-	
-	html {
-		height: 100%;
-		overflow: hidden;
-	}
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-	body {
-		height:100%;
-		overflow: auto;
-		-webkit-overflow-scrolling: touch;
-	}
-	
-	html{
-		height:100%;
-		background: #ffffff url(https://images.unsplash.com/photo-1449168013943-3a15804bb41c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=1958d4bfb59a246c6092ff0daabd284b); no-repeat center bottom fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">
 
-	#cspio-page{
-		background-color: rgba(0,0,0,0);
-	}
-	
-	.flexbox #cspio-page{
-		align-items: center;
-		justify-content: center;
-	}
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css">
 
-	.cspio body{
-		background: transparent;
-	}
+  </head>
 
-	.cspio body, .cspio body p{
-        font-family: Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-        font-size: 20px;
-        line-height: 1.50em;
-        color:#ffffff;
-    }
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-	::-webkit-input-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-	}
-
-	::-moz-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-	} 
-
-	:-ms-input-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-	} 
-
-	:-moz-placeholder {
-		font-family:Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-	}
-
-    .cspio h1, .cspio h2, .cspio h3, .cspio h4, .cspio h5, .cspio h6{
-        font-family: 'Pacifico';
-        color:#ffffff;
-    }
-
-	#cspio-headline{
-		font-family: 'Pacifico';
-		font-weight: 400;
-		font-style: ;
-				font-size: 48px;
-		color:#ffffff;
-		line-height: 1.00em;
-	}
-
-	.cspio button{
-        font-family: Helvetica, Arial, sans-serif;
-		font-weight: 400;
-		font-style: ;
-    }
-	
-    .cspio a, .cspio a:visited, .cspio a:hover, .cspio a:active{
-		color: #ffffff;
-	}
-
-	#cspio-socialprofiles a {
-	  color: #ffffff;
-	}
-	.cspio .btn-primary,
-	.cspio .btn-primary:focus,
-	.gform_button,
-	#mc-embedded-subscribe, .submit-button {
-		color: black;
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-		background-color: #ffffff;
-		background-image: -moz-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -ms-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#d9d9d9));
-		background-image: -webkit-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -o-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: linear-gradient(top,#ffffff,#d9d9d9);
-		background-repeat: repeat-x;
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=0);
-		border-color: #d9d9d9 #d9d9d9 #b3b3b3;
-		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
-		*background-color: #d9d9d9;
-		filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-	}
-
-	.cspio .btn-primary:hover,
-	.cspio .btn-primary:active,
-	.cspio .btn-primary.active,
-	.cspio .btn-primary.disabled,
-	.cspio .btn-primary[disabled],
-	.cspio .btn-primary:focus:hover,
-	.cspio .btn-primary:focus:active,
-	.cspio .btn-primary:focus.active,
-	.cspio .btn-primary:focus.disabled,
-	.cspio .btn-primary:focus[disabled],
-	#mc-embedded-subscribe:hover,
-	#mc-embedded-subscribe:active,
-	#mc-embedded-subscribe.active,
-	#mc-embedded-subscribe.disabled,
-	#mc-embedded-subscribe[disabled] {
-		background-color: #d9d9d9;
-		*background-color: #cccccc;
-	}
-
-	.cspio .btn-primary:active,
-	.cspio .btn-primary.active,
-	.cspio .btn-primary:focus:active,
-	.cspio .btn-primary:focus.active,
-	.gform_button:active,
-	.gform_button.active,
-	#mc-embedded-subscribe:active,
-	#mc-embedded-subscribe.active {
-		background-color: #bfbfbf;
-	}
-
-	.form-control,
-	.progress {
-		background-color: rgba(255, 255, 255, 0.85);
-	}
-
-	#cspio-progressbar span,
-	.countdown_section {
-		color: black;
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-	}
-
-	.cspio .btn-primary:hover,
-	.cspio .btn-primary:active {
-		color: black;
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-		border-color: #e6e6e6;
-	}
-
-	.cspio input[type='text']:focus {
-		webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-		-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-		box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-	}
     
-    #cspio-content {
-		display: none;
-		max-width: 600px;
-		background-color: #000000;
-		-webkit-border-radius: 2px;
-		border-radius: 2px;
-		-moz-background-clip: padding;
-		-webkit-background-clip: padding-box;
-		background-clip: padding-box;
-		background-color:transparent;
-	}
+    <div class="site-wrap" id="home-section">
+
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+
+
+
+      <header class="site-navbar site-navbar-target" role="banner">
+
+        <div class="container">
+          <div class="row align-items-center position-relative">
+
+            <div class="col-3 ">
+              <div class="site-logo">
+                <a href="index.html" class="font-weight-bold">Portfolio</a>
+              </div>
+            </div>
+
+            <div class="col-9  text-right">
+              
+
+              <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
+
+              
+
+              <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                  <li class="active"><a href="index.html" class="nav-link">Home</a></li>
+                  <li><a href="about.html" class="nav-link">About</a></li>
+                  <li><a href="photography.html" class="nav-link">Gallery</a></li>   
+		              <!-- <li><a href="event.html" class="nav-link">Event</a></li> -->
+                  <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            
+          </div>
+        </div>
+
+      </header>
+
+    <div class="ftco-blocks-cover-1">
+      <div class="site-section-cover overlay" style="background-image: url('images/Index/hero_1.jpg')">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <p>Hey there! I'm Linoy joseph</p>
+              <h1 class="mb-3 text-primary">Portrait Photographer</h1>
+              <p>Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever, It remembers little things, long after you have forgotten everything.</p>
+              <p><a href="contact.html" class="btn btn-primary">Contact Me</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section">
+      <div class="container">
+
+        <div class="row mb-5 ">
+          <div class="col-md-7 text-center mx-auto">
+            <span class="subtitle-39293">My Works</span>
+            <h2 class="serif">See My Works</h2>
+          </div>
+        </div>
+       
+        <div id="posts" class="row no-gutter">
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/Index/img_1.jpg" class="item-wrap" data-fancybox="gal">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/Index/img_1.jpg">
+            </a>
+          </div>
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/Index/img_4.jpg" class="item-wrap" data-fancybox="gal">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/Index/img_4.jpg">
+            </a>
+          </div>
+
+          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/Index/Lin (29).jpg" class="item-wrap" data-fancybox="gal">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/Index/Lin (29).jpg">
+            </a>
+          </div>
+
+          <div class="item design col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="mages/Index/Lin (30).jpg" class="item-wrap" data-fancybox="gal">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/Index/Lin (30).jpg">
+            </a>
+          </div>
+
+          <div class="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/Index/Lin (28).jpg" class="item-wrap" data-fancybox="gal">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/Index/Lin (28).jpg">
+            </a>
+          </div>
+
+          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/Index/Lin (27).jpg" class="item-wrap" data-fancybox="gal">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/Index/Lin (27).jpg">
+            </a>
+          </div>    
+        
+          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/Index/Lin (22).jpg" class="item-wrap" data-fancybox="gal">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/Index/Lin (22).jpg">
+            </a>
+          </div>    
+          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/Index/Lin (31).jpg" class="item-wrap" data-fancybox="gal">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/Index/Lin (31).jpg">
+            </a>
+          </div>    
+          <div class="item brand col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+            <a href="images/Index/Lin (32).jpg" class="item-wrap" data-fancybox="gal">
+              <span class="icon-search2"></span>
+              <img class="img-fluid" src="images/Index/Lin (32).jpg">
+            </a>
+          </div>    
+
+
+
+        </div>
+      </div>
+    </div> <!-- END .site-section -->
     
-	.cspio .progress-bar,
-	.countdown_section,
-	.cspio .btn-primary,
-	.cspio .btn-primary:focus,
-	.gform_button {
-		background-image: none;
-		text-shadow: none;
-	}
 
-	.cspio input,
-	.cspio input:focus {
-		-webkit-box-shadow: none !important;
-		box-shadow: none !important;
-	}
-							
-	#cspio-page{
-	    background: -moz-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-	    background: -webkit-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-	    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-	}
+   <div class="site-section bg-black about-me">
+     <div class="container">
+       <div class="row align-items-center">
+         <div class="col-md-6 mb-5 mb-md-0">
+           <img src="images/Index/about_1.jpg" alt="Image" class="img-fluid">
+         </div>
+         <div class="col-md-5 ml-auto">
+           <h3 class="text-white mb-5">About Me</h3>
+           <blockquote class="quote-29281">
+            <p>I am a software professional with photography as a passion.</p>
+           </blockquote>
+           <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem officia nesciunt quas, laudantium ex rem voluptas quod, distinctio eum tenetur. Placeat, quisquam, consequatur. Quam expedita neque nostrum iusto commodi minima!</p>
+           <p>Omnis, aspernatur, incidunt cum quo, nisi harum ea earum suscipit delectus explicabo unde saepe commodi modi fugiat nihil sint nam. Ullam, esse totam mollitia molestias ipsum odio aperiam, officiis nesciunt.</p>
+            -->
 
-	.cspio body{
-		background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.23) 100%); 
-		background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%); 
-		background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%); 
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#3b000000',GradientType=1 ); 
-	}
+           <div class="social_29128 white mt-5">
+            <a href="https://www.facebook.com/linoysmailbox/"><span class="icon-facebook"></span></a>  
+            <a href="https://www.instagram.com/linoy_joseph/?hl=en"><span class="icon-instagram"></span></a>  
+            <a href="https://twitter.com/linoysmailbox"><span class="icon-twitter"></span></a>  
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+  
 
-	#cspio-subscribe-btn{
-	    background:transparent;
-	    border: 1px solid #fff !important;
-	    color: #fff;
-	}
+    <div class="site-section">
+      <div class="container">
+        <div class="row mb-5 ">
+          <div class="col-md-7 text-center mx-auto">
+            <span class="subtitle-39293">See The Video</span>
+            <h2 class="serif">See The Video</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
 
-	#cspio-subscribe-btn:hover{
-	    background: rgba(255,255,255,0.2);
-	    color: #fff;
-	}
+            <a href="https://vimeo.com/191947042" data-fancybox  class="btn-video_38929">
+              <span><span class="icon-play"></span></span>
+              <img src="images/Index/img_1.jpg" alt="Image" class="img-fluid">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-	#cspio-credit img{
-		margin-left:auto;
-		margin-right:auto;
-		width:125px;
-		    margin-top: -4px;
-	}
+    <!-- <div class="site-section bg-light">
+      <div class="container">
 
-	#cspio-credit {
-		font-size:11px;
-	}
+        <div class="row mb-5 ">
+          <div class="col-md-7 text-center mx-auto">
+            <span class="subtitle-39293">Testimonials</span>
+            <h2 class="serif">What Client Says</h2>
+          </div>
+        </div>
 
-	</style>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="mb-4">
+              <span class="icon-star text-warning"></span>
+              <span class="icon-star text-warning"></span>
+              <span class="icon-star text-warning"></span>
+              <span class="icon-star text-warning"></span>
+              <span class="icon-star text-warning"></span>
+            </div>
+            <div>
+              <h5 class="serif mb-4">The Best Photographer</h5>
+              <blockquote class="quote_39823">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas excepturi accusantium non aut perspiciatis nisi magni libero, molestias.</p>
+              </blockquote>
+              <p>&mdash; Chris Smith</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            
+            <div class="mb-4">
+              <span class="icon-star text-warning"></span>
+              <span class="icon-star text-warning"></span>
+              <span class="icon-star text-warning"></span>
+              <span class="icon-star text-warning"></span>
+              <span class="icon-star text-warning"></span>
+            </div>
+            <div>
+              <h5 class="serif mb-4">Easy To Work With</h5>
+              <blockquote class="quote_39823">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas excepturi accusantium non aut perspiciatis nisi magni libero, molestias.</p>
+              </blockquote>
+              <p>&mdash; Chris Smith</p>
+            </div>
 
-	<!-- jQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="mb-4">
+              <span class="icon-star text-warning"></span>
+              <span class="icon-star text-warning"></span>
+              <span class="icon-star text-warning"></span>
+              <span class="icon-star text-warning"></span>
+              <span class="icon-star text-warning"></span>
+            </div>
+            <div>
+              <h5 class="serif mb-4">Professional Photographer</h5>
+              <blockquote class="quote_39823">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas excepturi accusantium non aut perspiciatis nisi magni libero, molestias.</p>
+              </blockquote>
+              <p>&mdash; Chris Smith</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
 
-	<!-- Modernizr -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-	
-	<!-- Google Analytics Code Goes Here-->
-</head>
-<body>
-	<div id="cspio-page">
-		<div id="cspio-content">
-			
-			<img id="cspio-logo" src="https://static.comingsoonpage.com/cspio-assets/1.0.0/seedprod-logo-white.png">
-			    				
-			<h1 id="cspio-headline">Coming Soon Page</h1>			    				
-			
-			<div id="cspio-description">Get ready! Something really cool is coming!</div>			    				
-			
-			<form id="cspio-form" action="" method="post">
-				<div id="cspio-field-wrapper">
-					<div class="row">
-						<div class="col-md-12 seperate"><div class="input-group"><input id="cspio-email" name="EMAIL" class="form-control input-lg form-el" type="email" placeholder="Email" required/>
-					<span class="input-group-btn"><button id="cspio-subscribe-btn" type="submit" class="btn btn-lg btn-primary form-el noglow">Notify Me</button></span></div></div>
-					</div>
-				</div>
-			</form>
-			
-			<span id="cspio-privacy-policy-txt">We promise to never spam you.</span>
-			    						    			    								    			    			    				
-			<div id="cspio-socialprofiles">
-				<a href="" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>			
-				<a href="" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>			
-				<a href="mailto:" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>			
-			</div>
+    <div class="site-section bg-white">
+      <div class="container">
+        <div class="row mb-5 ">
+          <div class="col-md-7 text-center mx-auto">
+            <!-- <span class="subtitle-39293">News</span> -->
+            <h2 class="serif">HIGHLIGHTS</h2>
+          </div>
+        </div>
 
-			<div id="cspio-credit">
-					<span>Created with <a target="_blank" href="https://www.comingsoonpage.com"><img id="aff" src="https://static.comingsoonpage.com/cspio-assets/1.0.0/comingsoonpage.com-logo.png" alt="Created by ComingSoonPage.com"></a> Free download <a target="_blank" href="http://www.seedprod.com/free-coming-soon-page/" style="text-decoration:underline" alt="Get your free coming soon page.">here.</a>
-				</span></div>
-									    									    			    			    							    			     			    		
-		</div><!-- end of #cspio-content -->
-	</div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="https://en.wikipedia.org/wiki/Vypin_Lighthouse" target="_blank">
+                <img src="images/Index/Foot 1.jpg" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2><a href="https://en.wikipedia.org/wiki/Vypin_Lighthouse" target="_blank">Vypin Lighthouse View</a></h2>
+                <!-- <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="https://en.wikipedia.org/wiki/Indian_giant_squirrel" target="_blank">
+                <img src="images/Index/Foot 2.jpg" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2><a href="https://en.wikipedia.org/wiki/Indian_giant_squirrel" target="_blank">Indian giant squirrel</a></h2>
+                <!-- <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p> -->
+              </div>
+            </div>
+          </div>
 
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="post-entry-1 h-100">
+              <a href="single.html">
+                <img src="images/Index/Foot 3.jpg" alt="Image"
+                 class="img-fluid">
+              </a>
+              <div class="post-entry-1-contents">
+                
+                <h2>
+                  <!-- <a href="single.html"> -->
+                    Fort Kochi</a></h2>
+                <!-- <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-	<script>
-		// Animate Delay
-		setTimeout(function(){ jQuery("#cspio-content").show().addClass('animated fadeIn'); }, 250);
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h2 class="footer-heading mb-3"><u>Eadweard Muybridge</u></h2>
+                <p> “Only photography has been able to divide human life into a series of moments, each of them has the value of a complete existence.”</p>
+          </div>
+          <div class="col-lg-8 ml-auto">
+            <div class="row">
+              <div class="col-lg-6 ml-auto">
+                <h2 class="footer-heading mb-4">Quick Links</h2>
+                <ul class="list-unstyled">
+                  <li><a href="photography.html">Gallery</a></li>
+                  <!-- <li><a href="#">About Us</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Contact Us</a></li> -->
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <!-- <h2 class="footer-heading mb-4">Newsletter</h2>
+                <form action="#" class="d-flex" class="subscribe">
+                  <input type="text" class="form-control mr-3" placeholder="Email">
+                  <input type="submit" value="Send" class="btn btn-primary">
+                </form> -->
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+              <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved. 
+            </p>
+            </div>
+          </div>
 
-		// Reseize	
-		function resize(){
-				$('head').append("<style id='form-style' type='text/css'></style>");
-				$('#form-style').html('.cspio .input-group-btn, .cspio .input-group{display:block;width:100%;}.cspio #cspio-subscribe-btn{margin-left:0;width:100%;display:block;}.cspio .input-group .form-control:first-child, .cspio .input-group-addon:first-child, .cspio .input-group-btn:first-child>.btn, .cspio .input-group-btn:first-child>.dropdown-toggle, .cspio .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {border-bottom-right-radius: 4px;border-top-right-radius: 4px;}.cspio .input-group .form-control:last-child, .cspio .input-group-addon:last-child, .cspio .input-group-btn:last-child>.btn, .cspio .input-group-btn:last-child>.dropdown-toggle, .cspio .input-group-btn:first-child>.btn:not(:first-child) {border-bottom-left-radius: 4px;border-top-left-radius: 4px;}');
-		}
-		
-		$('#cspio-content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
-			function(){
-				var width = $('#cspio-field-wrapper').width();
-				if(width < 480 && width != 0){
-					resize();
-				}
-			}
-		);
-	</script>
+        </div>
+      </div>
+    </footer>
 
-	</body>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script src="js/main.js"></script>
+
+  </body>
+
 </html>
 
-<!-- This page was generated by ComingSoonPage.com | Learn more: http://www.comingsoonpage.com -->
